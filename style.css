@@ -1,1 +1,45 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        text-align: center;
+    }
+}
+
+/* Estilos para tablets e desktops */
+@media only screen and (min-width: 601px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
